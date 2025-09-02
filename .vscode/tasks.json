@@ -25,31 +25,21 @@
       },
       "problemMatcher": []
     },
-    {
-      "label": "build",
-      "type": "shell",
-      "command": "arduino-cli",
-      "args": [
-        "compile",
-        "--fqbn",
-        "arduino:avr:mega",
-        "--build-path",
-        "./build",
-        "--library",
-        "./lib/grbl",
-        "./src"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "presentation": {
-        "echo": true,
-        "reveal": "always",
-        "clear": true
-      }
-      "problemMatcher": []
-    },
+	{
+		"label": "build",
+		"type": "shell",
+		"command": "arduino-cli",
+		"args": [
+			"compile",
+			"--fqbn", "arduino:avr:mega",
+			"--build-path", "./build",
+			"--library", "./grbl",      
+			"./src"
+		],
+		"group": {"kind": "build", "isDefault": true},
+		"presentation": {"echo": true, "reveal": "always", "clear": true}
+		"problemMatcher": []
+	},
     {
       "label": "flash",
       "type": "shell",

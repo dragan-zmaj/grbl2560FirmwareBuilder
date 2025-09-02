@@ -35,7 +35,9 @@
         "arduino:avr:mega",
         "--build-path",
         "./build",
-        "./"
+        "--library",
+        "./lib/grbl",
+        "./src"
       ],
       "group": {
         "kind": "build",
@@ -44,11 +46,8 @@
       "presentation": {
         "echo": true,
         "reveal": "always",
-        "focus": false,
-        "panel": "shared",
-        "showReuseMessage": false,
         "clear": true
-      },
+      }
       "problemMatcher": []
     },
     {

@@ -33,8 +33,8 @@
         "compile",
         "--fqbn", "arduino:avr:mega",
         "--build-path", "./build",
-        "--library", "./grbl",
-        "."  
+        "--library", "./lib", 
+        "."
     ],
     "group": {"kind": "build", "isDefault": true},
     "presentation": {"echo": true, "reveal": "always", "clear": true}

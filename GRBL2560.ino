@@ -1,4 +1,4 @@
-#include "grbl/grbl.h"
+#include "lib/grbl/grbl.h"
 
 // Declare a function prototype for GRBL's main function.
 // This tells our sketch that the function exists elsewhere (in the library we will build).

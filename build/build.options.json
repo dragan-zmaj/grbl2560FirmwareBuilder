@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "..\\..\\..,..\\..\\..",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:avr:mega",
+  "hardwareFolders": "C:\\Users\\c8501211\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\c8501211\\Documents\\Arduino\\libraries",
+  "sketchLocation": "D:\\private\\01_CNC_GRBL\\GRBL2560"
+}

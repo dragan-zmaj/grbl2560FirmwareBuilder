@@ -1,0 +1,10 @@
+#line 1 "D:\\private\\01_CNC_GRBL\\GRBL2560\\.vscode\\settings.json"
+{
+  "taskRunner.tasks": {
+    "Clean": "arduino: clean",
+    "Build": "arduino: build",
+    "Flash": "arduino: flash",
+    "Build & Flash": "arduino: build and flash",
+    "Serial Monitor": "arduino: debug - serial monitor"
+  }
+}

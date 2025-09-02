@@ -1,0 +1,9 @@
+{
+  "taskRunner.tasks": {
+    "Clean": "arduino: clean",
+    "Build": "arduino: build",
+    "Flash": "arduino: flash",
+    "Build & Flash": "arduino: build and flash",
+    "Serial Monitor": "arduino: debug - serial monitor"
+  }
+}

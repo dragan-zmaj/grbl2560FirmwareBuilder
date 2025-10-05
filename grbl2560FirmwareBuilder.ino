@@ -6,10 +6,11 @@ extern "C" int main(void);
 
 void setup() {
   // This function calls GRBL's initialization code.
-  main();
+    main();
 }
 
 void loop() {
   // Empty. GRBL's main function never returns; it runs its own infinite loop.
   // This is a common pattern for real-time control systems.
+
 }

@@ -46,7 +46,7 @@
       "args": [
         "upload",
         "-p",
-        "COM3",
+        "COM5",
         "--fqbn",
         "arduino:avr:mega",
         "--input-dir",
@@ -81,7 +81,7 @@
       "args": [
         "monitor",
         "-p",
-        "COM3",
+        "COM5",
         "-c",
         "baudrate=115200"
       ],
